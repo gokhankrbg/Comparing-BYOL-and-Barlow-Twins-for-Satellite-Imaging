@@ -25,7 +25,7 @@ Our key finding is a clear, data-dependent trade-off between the two models:
 | |**Barlow Twins** | **88.78%** |
 
 ![t-SNE Visualization](results/tSNE_barlow_twins_65024_images.png) <!-- Buraya t-SNE görselini ekle -->
-*t-SNE visualization showing the feature separability of the models.*
+*t-SNE visualization showing the feature separability of the models for Barlow Twins model with 65k images.*
 
 ---
 
