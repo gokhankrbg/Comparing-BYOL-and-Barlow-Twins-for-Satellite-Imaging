@@ -7,6 +7,10 @@ This repository contains the official PyTorch implementation for the paper: **"A
 
 This project investigates and compares the performance of two leading non-contrastive self-supervised learning (SSL) models, **Bootstrap Your Own Latent (BYOL)** and **Barlow Twins**, for pre-training on satellite imagery. We explore their data efficiency and effectiveness by pre-training on subsets of the **SSL4EO-S12 S2RGB** dataset and evaluating the learned representations on the downstream **EuroSAT** land cover classification task.
 
+This project is based on the methods described in the following papers. For a deeper understanding of the models, please refer to the original publications:
+
+-   **BYOL:** Grill, J. B., et al. (2020). *Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning*. [arXiv:2006.07733](https://arxiv.org/abs/2006.07733)
+-   **Barlow Twins:** Zbontar, J., et al. (2021). *Barlow Twins: Self-Supervised Learning via Redundancy Reduction*. [arXiv:2103.03230](https://arxiv.org/abs/2103.03230)
 ---
 
 ## Key Findings
