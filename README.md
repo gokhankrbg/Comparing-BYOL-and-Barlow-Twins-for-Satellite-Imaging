@@ -1,5 +1,6 @@
 # A Comparative Analysis of Self-Supervised Learning: BYOL vs. Barlow Twins for Earth Observation
 A comparative study of BYOL and Barlow Twins for self-supervised representation learning on the SSL4EO-S12 satellite imagery dataset.
+
 ![Header Image](results/ssl.png) 
 
 This repository contains the official PyTorch implementation for the paper: **"A Comparative Analysis of Self-Supervised Learning Models: BYOL and Barlow Twins for Earth Observation with Sentinel Imagery"**.
@@ -31,4 +32,4 @@ Our key finding is a clear, data-dependent trade-off between the two models:
 ---
 
 ## Repository Structure
-In the Data preparation folder, visualizations were made on how the data was retrieved and what the data looks like. In the Pre-trained folder, separate trainings were conducted for the BYOL and Barlow Twins models on three different datasets (12,288 images, 30,720 images, 65,024 images). Subsequently, these pre-trained models were trained using the linear probing method on the EuroSAT dataset, which contains 27,000 labeled satellite images across 10 classes, and the results were shared in the results section.
+The project workflow is structured across several key directories. The **Data preparation folder** includes scripts for data retrieval and notebooks containing visualizations of the raw satellite imagery. In the **Pre-trained folder**, you will find the notebooks for the self-supervised training phase, where both BYOL and Barlow Twins models were independently trained on three different data subsets (12,288 images, 30,720 images, and 61,696 images) to assess data efficiency. The **evaluation folder** holds the final stage of our experiment; here, the pre-trained models were trained and evaluated on the EuroSAT dataset (a benchmark with 27,000 images across 10 classes) using the linear probing method. Finally, the **results section** contains all generated plots, confusion matrices, and summary tables from this evaluation.
