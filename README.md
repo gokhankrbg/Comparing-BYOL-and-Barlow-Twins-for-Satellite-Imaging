@@ -17,6 +17,7 @@ Our key finding is a clear, data-dependent trade-off between the two models:
 
 | Pre-training Data | SSL Method | EuroSAT Accuracy (%) |
 | :---------------- | :----------- | :------------------- |
+| N/A | Scratch | 72.96% |
 | 12,288 images | BYOL | 79.78% |
 | | Barlow Twins | 53.85% |
 | 30,720 images | BYOL | 84.39 |
